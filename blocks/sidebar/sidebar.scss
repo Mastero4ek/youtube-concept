@@ -1,0 +1,21 @@
+.sidebar {
+	padding-left: 3.2rem;
+	width: 12%;
+	position: fixed;
+	left: 0;
+	top: 11.4rem;
+	height: calc(100% - 11.4rem);
+	overflow-y: auto;
+	scrollbar-width: none;
+}
+
+.sidebar::-webkit-scrollbar { /* webkit */
+    width: 0;
+    height: 0;
+}
+
+@media (max-width: 48em) {
+	.sidebar {
+		display: none;
+	}
+}

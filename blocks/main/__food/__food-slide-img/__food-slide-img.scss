@@ -1,0 +1,20 @@
+.main__food-slide-img {
+	height: 15rem;
+	margin-bottom: 1rem;
+}
+
+.main__food-slide-img > img {
+	object-fit: cover;
+	border-radius: 1.4rem;
+}
+
+@media (max-width: 48em) {
+	.main__food-slide-img {
+		height: 30rem;
+		margin-bottom: 1.6rem;
+	}
+
+	.main__food-slide-img > img {
+		border-radius: 2.8rem;
+	}
+}

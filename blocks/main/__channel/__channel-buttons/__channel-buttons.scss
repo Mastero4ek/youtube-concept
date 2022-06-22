@@ -1,0 +1,12 @@
+.main__channel-buttons {
+	position: absolute;
+	display: flex;
+	top: 2.5rem;
+	right: 9%;
+}
+
+@media (max-width: 48em) {
+	.main__channel-buttons {
+		display: none;
+	}
+}

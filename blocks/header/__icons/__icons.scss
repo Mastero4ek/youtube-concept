@@ -1,0 +1,13 @@
+.header__icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 5rem;
+	width: 17rem;
+}
+
+@media (max-width: 48em) {
+	.header__icons {
+		display: none;
+	}
+}

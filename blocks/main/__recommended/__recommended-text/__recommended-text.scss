@@ -1,0 +1,10 @@
+.main__recommended-text {
+	@include font (700, 2.6rem, 127%);
+	margin-bottom: 3rem;
+}
+
+@media (max-width: 48em) {
+	.main__recommended-text {
+		font-size: 4rem;
+	}
+}

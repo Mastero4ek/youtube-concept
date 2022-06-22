@@ -1,0 +1,11 @@
+.footer__mobile-link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: end;
+}
+
+.footer__mobile-link > span {
+	@include font (400, 2rem, 130%);
+	color: #898989;
+}

@@ -1,0 +1,12 @@
+.header__input-mobile {
+	display: none;
+}
+
+@media (max-width: 48em) {
+	.header__input-mobile {
+		//display: flex;
+		width: 100%;
+		padding: 1.5rem 10rem 1.5rem 3rem;
+		@include font (400, 3rem, 125%);
+	}
+}

@@ -1,0 +1,17 @@
+.main__food-img {
+	width: 5rem;
+	height: 5rem;
+	margin-right: 2rem;
+}
+
+.main__food-img > img {
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+@media (max-width: 48em) {
+	.main__food-img {
+		width: 6rem;
+		height: 6rem;
+	}
+}

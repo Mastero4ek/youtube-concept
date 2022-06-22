@@ -1,0 +1,14 @@
+.header__search-mobile-img {
+	display: none;
+}
+
+@media (max-width: 48em) {
+	.header__search-mobile-img {
+		position: fixed;
+		display: block;
+		width: 3.8rem;
+		height: 3.8rem;
+		cursor: pointer;
+		right: 22%;
+	}
+}

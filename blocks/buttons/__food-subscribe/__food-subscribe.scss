@@ -1,0 +1,17 @@
+.button__food-subscribe {
+	@include font (400, 1.6rem, 125%);
+	padding: 1rem 1.95rem 1rem 2.05rem;
+	position: absolute;
+	top: 1.5rem;
+	left: 75.5%;
+}
+
+@media (max-width: 48em) {
+	.button__food-subscribe {
+		top: 0;
+		right: 0;
+		font-size: 2rem;
+		padding: 1rem 2rem 1rem 2rem;
+		text-align: center;
+	}
+}

@@ -1,0 +1,15 @@
+.main__wrapper {
+	width: 100%;
+	padding-left: 13.3%;
+	padding-right: 7rem;
+	margin-top: 11.4rem;
+}
+
+@media (max-width: 48em) {
+	.main__wrapper {
+		padding: 0 3.2rem;
+		margin: 0 auto;
+		margin-top: 12rem;
+		margin-bottom: 10rem;
+	}
+}

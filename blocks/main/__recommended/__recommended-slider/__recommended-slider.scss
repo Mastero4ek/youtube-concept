@@ -1,0 +1,10 @@
+.main__recommended-slider {
+	width: 100%;
+	margin-bottom: 5rem;
+}
+
+@media (max-width: 48em) {
+	.main__recommended-slider {
+		margin-bottom: 0;
+	}
+}

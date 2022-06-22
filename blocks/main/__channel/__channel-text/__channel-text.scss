@@ -1,0 +1,9 @@
+.main__channel-text {
+	@include font (700, 2.6rem, 127%);
+}
+
+@media (max-width: 48em) {
+	.main__channel-text {
+		font-size: 4rem;
+	}
+}

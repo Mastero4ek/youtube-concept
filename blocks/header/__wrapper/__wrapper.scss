@@ -1,0 +1,14 @@
+.header__wrapper {
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 48em) {
+	.header__wrapper {
+		justify-content: space-between;
+		position: relative;
+		padding-bottom: 4rem;
+	}
+}

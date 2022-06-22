@@ -1,0 +1,9 @@
+.header__search {
+	margin-right: 50.5rem;
+}
+
+@media (max-width: 48em) {
+	.header__search {
+		display: none;
+	}
+}
